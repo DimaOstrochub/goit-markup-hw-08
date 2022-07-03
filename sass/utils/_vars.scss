@@ -1,0 +1,69 @@
+$main-text-color: #212121;
+$brand-color: #757575;
+$link-color: #2196F3;
+$footer-bg-color: #2F303A;
+$team-section-bg-color: #F5F4FA;
+$customers-fill-color: #AFB1B8;
+$main-bg-color: #FFFFFF;
+$bg-color: #2F303A;
+$border-color: #EEEEEE;
+
+body{
+    color: $main-text-color;
+    outline: 2px solid burlywood;
+}
+html{
+    outline: 3px solid yellowgreen;
+}
+body.is-open{
+    overflow: hidden;
+}
+header{
+    display: block;
+}
+li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+h1,h2,h3,p{
+    margin: 0;
+}
+link{
+    text-decoration: none;
+}
+*::before,::after{
+    box-sizing: border-box;
+}
+.container{
+    outline: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+
+@media screen and (min-width: 480px){
+    width: 480px;
+}
+
+@media screen and (min-width: 768px){
+    width: 768px;
+}
+
+@media screen and (min-width: 1200px){
+    width: 1200px;
+}
+}
+
+

@@ -1,0 +1,18 @@
+.page-header{
+    background: $main-bg-color;   
+    border-bottom: 1px solid #ECECEC;    
+}
+.page-header-container{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+@media screen and (min-width: 768px) {
+    width: 768px;
+}
+@media screen and (min-width: 1200px) {
+    width: 1200px;
+}
+}
+

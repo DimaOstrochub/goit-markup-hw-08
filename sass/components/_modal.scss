@@ -1,0 +1,35 @@
+.modal{
+    position: absolute;
+    width: 450px;
+    height: 609px;
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+    transform: translate(-50%,-50%);
+    background-color: $main-bg-color;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow-y: auto;
+    max-height: calc(100vh - 30px);
+@media screen and (min-width: 768px) {
+    height: 609px;
+}
+@media screen and (min-width: 1200px) {
+    max-width: 528px;
+    max-height: 581px;
+}
+}
+.modal__button{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.modal__icon{
+    width: 11px;
+    height: 11px;
+}

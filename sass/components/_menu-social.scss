@@ -1,0 +1,29 @@
+.menu-social{
+    list-style: none;
+    
+    overflow-y: hidden;
+    display: flex;
+    flex-basis: auto;
+}
+.menu-social__item{
+   text-align: start;
+}
+.menu-social__item--border{
+    border-right: 1px solid black;
+    
+&:last-child{
+    border: none;
+}
+}
+
+.menu-social__link{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.22;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: $link-color;
+    padding: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+}
