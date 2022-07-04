@@ -10,11 +10,8 @@ $border-color: #EEEEEE;
 
 body{
     color: $main-text-color;
-    outline: 2px solid burlywood;
 }
-html{
-    outline: 3px solid yellowgreen;
-}
+
 body.is-open{
     overflow: hidden;
 }
@@ -47,7 +44,7 @@ link{
     box-sizing: border-box;
 }
 .container{
-    outline: 1px solid red;
+    
     margin-left: auto;
     margin-right: auto;
     padding-right: 15px;
